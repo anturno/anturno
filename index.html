@@ -1,7 +1,7 @@
 <!doctype html>
 <!-- SPDX-License-Identifier: AGPL-3.0-only -->
 <!-- Copyright (C) 2026 Anturno -->
-<!-- download.anturno.cloud: GitHub Pages of anturno/releases, published by .github/workflows/desktop-release.yml. -->
+<!-- download.anturno.cloud: GitHub Pages of anturno/anturno, published by .github/workflows/desktop-release.yml. -->
 <!-- Drawn after the web app's sign-in (apps/web/src/components/remote/sign-in-shell.tsx): its dark page, dawn field, tile and column. -->
 <html lang="en">
   <head>
@@ -70,13 +70,12 @@
         place-items: center;
         width: 48px;
         height: 48px;
-        border-radius: 21%;
-        background: var(--foreground);
-        color: var(--background);
+        color: var(--foreground);
       }
+      /* The mark alone, no square behind it, as the app's loading screen and sign-in show it. */
       .tile svg {
-        width: 28px;
-        height: 28px;
+        width: 40px;
+        height: 40px;
       }
       h1 {
         margin: 28px 0 0;
@@ -234,12 +233,7 @@
       <div class="field" aria-hidden="true"><canvas id="field"></canvas></div>
       <div class="head rise" style="--order: 0">
         <span class="tile" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <rect x="9.4" y="3.6" width="8.4" height="4.6" rx="2.3" />
-            <rect x="9.4" y="3.6" width="8.4" height="4.6" rx="2.3" transform="rotate(90 12 12)" />
-            <rect x="9.4" y="3.6" width="8.4" height="4.6" rx="2.3" transform="rotate(180 12 12)" />
-            <rect x="9.4" y="3.6" width="8.4" height="4.6" rx="2.3" transform="rotate(270 12 12)" />
-          </svg>
+          <!-- The mark, written by `bun run mark`. --><!-- mark --><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="9.5" y="4" width="8.5" height="4" rx="2" fill="none" transform="rotate(0 12 12)"/><rect x="9.5" y="4" width="8.5" height="4" rx="2" fill="currentColor" transform="rotate(90 12 12)"/><rect x="9.5" y="4" width="8.5" height="4" rx="2" fill="currentColor" transform="rotate(180 12 12)"/><rect x="9.5" y="4" width="8.5" height="4" rx="2" fill="currentColor" transform="rotate(270 12 12)"/><clipPath id="mark"><rect x="9.5" y="4" width="8.5" height="4" rx="2"/></clipPath><image href="data:image/jpeg;base64,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" x="9.5" y="4" width="8.5" height="4" preserveAspectRatio="none" clip-path="url(#mark)"/></svg><!-- /mark -->
         </span>
         <h1>Download Anturno</h1>
       </div>
@@ -251,13 +245,13 @@
         <div class="fine">
           <p style="margin: 0"><span id="version"></span>macOS on Apple silicon · Linux x64</p>
           <nav aria-label="Other downloads">
-            <a href="https://github.com/anturno/releases/releases/latest/download/Anturno-linux-amd64.deb">.deb</a>
+            <a href="https://github.com/anturno/anturno/releases/latest/download/Anturno-linux-amd64.deb">.deb</a>
             <span aria-hidden="true">·</span>
-            <a href="https://github.com/anturno/releases/releases/latest/download/Anturno-linux-x86_64.AppImage">AppImage</a>
+            <a href="https://github.com/anturno/anturno/releases/latest/download/Anturno-linux-x86_64.AppImage">AppImage</a>
             <span aria-hidden="true">·</span>
-            <a href="https://github.com/anturno/releases/releases/latest/download/Anturno-linux-x64.tar.gz">.tar.gz</a>
+            <a href="https://github.com/anturno/anturno/releases/latest/download/Anturno-linux-x64.tar.gz">.tar.gz</a>
             <span aria-hidden="true">·</span>
-            <a href="https://github.com/anturno/releases/releases">All releases</a>
+            <a href="https://github.com/anturno/anturno/releases">All releases</a>
           </nav>
         </div>
       </div>

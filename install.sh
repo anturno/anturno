@@ -6,7 +6,7 @@
 #
 #     curl -fsSL https://download.anturno.cloud/install.sh | sh
 #
-# It downloads the newest release from github.com/anturno/releases, checks it
+# It downloads the newest release from github.com/anturno/anturno, checks it
 # against the release's SHA256SUMS, and installs it:
 #
 #   Mac     Anturno.app into /Applications, or ~/Applications when that isn't
@@ -26,7 +26,7 @@
 
 set -eu
 
-RELEASES="${ANTURNO_RELEASES:-https://github.com/anturno/releases/releases/latest/download}"
+RELEASES="${ANTURNO_RELEASES:-https://github.com/anturno/anturno/releases/latest/download}"
 SITE="https://download.anturno.cloud"
 BUNDLE_ID="factory.anturno.desktop"
 
