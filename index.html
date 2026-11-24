@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Download Anturno</title>
-    <meta name="description" content="Install Anturno on macOS or Linux." />
+    <meta name="description" content="Install Anturno on macOS, Linux or Windows." />
     <meta name="theme-color" content="#111111" />
     <link rel="icon" href="icon.png" />
     <style>
@@ -239,17 +239,19 @@
       </div>
       <div class="step rise" style="--order: 1">
         <div class="command">
-          <code><span class="prompt">$ </span><span id="command">curl -fsSL https://download.anturno.cloud/install.sh | sh</span></code>
+          <code><span class="prompt" id="prompt">$ </span><span id="command">curl -fsSL https://download.anturno.cloud/install.sh | sh</span></code>
           <button type="button" id="copy" aria-live="polite"><span>Copy</span></button>
         </div>
         <div class="fine">
-          <p style="margin: 0"><span id="version"></span>macOS on Apple silicon · Linux x64</p>
+          <p style="margin: 0"><span id="version"></span>macOS on Apple silicon · Linux x64 · Windows x64</p>
           <nav aria-label="Other downloads">
             <a href="https://github.com/anturno/anturno/releases/latest/download/Anturno-linux-amd64.deb">.deb</a>
             <span aria-hidden="true">·</span>
             <a href="https://github.com/anturno/anturno/releases/latest/download/Anturno-linux-x86_64.AppImage">AppImage</a>
             <span aria-hidden="true">·</span>
             <a href="https://github.com/anturno/anturno/releases/latest/download/Anturno-linux-x64.tar.gz">.tar.gz</a>
+            <span aria-hidden="true">·</span>
+            <a href="https://github.com/anturno/anturno/releases/latest/download/Anturno-win-x64.zip">Windows .zip</a>
             <span aria-hidden="true">·</span>
             <a href="https://github.com/anturno/anturno/releases">All releases</a>
           </nav>
@@ -259,6 +261,11 @@
     <script>
       const copy = document.getElementById("copy");
       const command = document.getElementById("command");
+      // Windows installs from PowerShell (install.ps1).
+      if (/Windows/.test(navigator.userAgent)) {
+        document.getElementById("prompt").textContent = "> ";
+        command.textContent = "irm https://download.anturno.cloud/install.ps1 | iex";
+      }
       const CHECK =
         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>';
       let reset = 0;

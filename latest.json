@@ -1,24 +1,29 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "platforms": {
     "mac-arm64": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.1/Anturno-mac-arm64.zip",
-      "sha256": "a2466eef216f23caff4d2e53ccefa5040a396d107769191a27501391bd557b8b",
-      "size": 131954753
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.2/Anturno-mac-arm64.zip",
+      "sha256": "78956fece10cd426c19ba4cd7bef3ce6dc32cae7f8da7c6281f71456b47f7674",
+      "size": 131968055
     },
     "linux-x64-appimage": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.1/Anturno-linux-x86_64.AppImage",
-      "sha256": "09979631f113ab606b6311110c961c7a5575f20bcef28a4ddbaa07b94a638018",
-      "size": 144167399
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.2/Anturno-linux-x86_64.AppImage",
+      "sha256": "aed2ec291db27330f2f74b94647917a3d2efe44d59a33d73f796d2526ac3a872",
+      "size": 144179915
     },
     "linux-x64-deb": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.1/Anturno-linux-amd64.deb",
-      "sha256": "4dd28c173ac9da06e822f47b8321186388ccfa0367085002b27e0341e066428c",
-      "size": 114909716
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.2/Anturno-linux-amd64.deb",
+      "sha256": "3cf0386dde21759e8f3fa21780fb3658ded1391cc1e69d7e47caae70125bee19",
+      "size": 114921380
+    },
+    "win-x64": {
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.2/Anturno-win-x64.zip",
+      "sha256": "d02360a48a7e0d8bbc12b0b135e239f2a6e4b03936fbcbbe3ac369921de73bbb",
+      "size": 163736040
     }
   },
-  "notes": "*November 24, 2026*\n\n- **The first release.** Anturno runs on Apple silicon Macs and on Linux, and updates itself from here on.\n- **Several agents at once.** Each session runs in its own branch, in a worktree or in the checkout, with the agents you already have.\n- **Answer when they ask.** A session waits for you when its agent needs a decision, and the sidebar shows which ones are waiting.\n- **Try what they built.** The side panel has the changes, the files, a real browser and a terminal for each session.\n- **Merge only what you approve.** Review the changes, open a pull request and merge it from the same window.",
-  "date": "2026-11-24T12:37:59.686Z",
+  "notes": "*November 24, 2026*\n\n- **Windows.** Anturno runs on Windows (x64) too: install it from PowerShell, and it updates itself like the Mac and Linux apps.\n- **A rail layout.** Settings → Appearance → Layout keeps the pages as icons down the side and opens the sessions in a panel beside them.\n- **Threads on the Sessions page.** Sessions a session started, and its forks, sit under it and fold away, as they do in the sidebar.",
+  "date": "2026-11-24T14:10:19.891Z",
   "cover": null,
-  "signature": "3mGYCBkmkunPeBTESVPRg4M9Ii8C0UQmiKRhGa+cWex6uLmuFlAx8U4IDUuntS4YhB8HQsE68tArpPkg1d/rDg=="
+  "signature": "iOLMQwV7RkyqenDqE8X1FUFj4vwskvO41hhnBoE+IH0IrCFeGaFGn4CLOIbC2EI8zeo7H6v7CkIsKU0JErGdCg=="
 }

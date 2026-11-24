@@ -150,5 +150,6 @@ case "$(uname -s)" in
       install_appimage
     fi
     ;;
-  *) fail "runs on macOS and Linux." ;;
+  MINGW* | MSYS* | CYGWIN*) fail "installs on Windows from PowerShell: irm $SITE/install.ps1 | iex" ;;
+  *) fail "runs on macOS, Linux and Windows." ;;
 esac
