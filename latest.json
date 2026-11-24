@@ -1,29 +1,29 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "platforms": {
     "mac-arm64": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.2/Anturno-mac-arm64.zip",
-      "sha256": "78956fece10cd426c19ba4cd7bef3ce6dc32cae7f8da7c6281f71456b47f7674",
-      "size": 131968055
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.3/Anturno-mac-arm64.zip",
+      "sha256": "cc3db3cf7db4cacacbf79294291f2e0d0cf09637d949ca47264a93d78560e34f",
+      "size": 131988008
     },
     "linux-x64-appimage": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.2/Anturno-linux-x86_64.AppImage",
-      "sha256": "aed2ec291db27330f2f74b94647917a3d2efe44d59a33d73f796d2526ac3a872",
-      "size": 144179915
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.3/Anturno-linux-x86_64.AppImage",
+      "sha256": "15ef966f9f1584cd2ed8bc387744da2632f38122114398fea26c3a5618375e2d",
+      "size": 144192198
     },
     "linux-x64-deb": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.2/Anturno-linux-amd64.deb",
-      "sha256": "3cf0386dde21759e8f3fa21780fb3658ded1391cc1e69d7e47caae70125bee19",
-      "size": 114921380
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.3/Anturno-linux-amd64.deb",
+      "sha256": "5b4183abc1590ca8e138ffeb31eb7c0cc12eb1581f12742d905f8e75a5268c8a",
+      "size": 114950740
     },
     "win-x64": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.2/Anturno-win-x64.zip",
-      "sha256": "d02360a48a7e0d8bbc12b0b135e239f2a6e4b03936fbcbbe3ac369921de73bbb",
-      "size": 163736040
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.3/Anturno-win-x64.zip",
+      "sha256": "ceff6e563dc76782582c5dd2e0335ad584bb1bd45605613213ff78d271b651fa",
+      "size": 163754610
     }
   },
-  "notes": "*November 24, 2026*\n\n- **Windows.** Anturno runs on Windows (x64) too: install it from PowerShell, and it updates itself like the Mac and Linux apps.\n- **A rail layout.** Settings → Appearance → Layout keeps the pages as icons down the side and opens the sessions in a panel beside them.\n- **Threads on the Sessions page.** Sessions a session started, and its forks, sit under it and fold away, as they do in the sidebar.",
-  "date": "2026-11-24T14:10:19.891Z",
+  "notes": "*November 24, 2026*\n\n- **The rail layout is the default.** Pages sit as icons down the side, with the sessions in a panel beside them; if you chose Sidebar, it stays.\n- **Preview tabs.** One click opens a session in a preview tab that the next one replaces; a double-click, Enter or working in it keeps it open.\n- **Pull requests and issues in tabs.** Tabs hold them beside sessions, each led by its icon, and the top row keeps six with the rest in a menu.\n- **The Browser in the window's band.** Its tabs sit in the top row, with back and forward where the window controls are.\n- **Simpler Issues filters.** Tracker, scope, status and team sit in one row of menus.",
+  "date": "2026-11-24T16:18:21.244Z",
   "cover": null,
-  "signature": "iOLMQwV7RkyqenDqE8X1FUFj4vwskvO41hhnBoE+IH0IrCFeGaFGn4CLOIbC2EI8zeo7H6v7CkIsKU0JErGdCg=="
+  "signature": "3E1a/ZheOM9mvjERQfclragIbO2w3IVp6H5B8y+XsU3Bkwfngch79hEm9f9kLB2g1w+EV5VwDYlB9yTrMYp1Dw=="
 }
