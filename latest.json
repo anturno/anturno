@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "platforms": {
+    "mac-arm64": {
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.1/Anturno-mac-arm64.zip",
+      "sha256": "a2466eef216f23caff4d2e53ccefa5040a396d107769191a27501391bd557b8b",
+      "size": 131954753
+    },
+    "linux-x64-appimage": {
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.1/Anturno-linux-x86_64.AppImage",
+      "sha256": "09979631f113ab606b6311110c961c7a5575f20bcef28a4ddbaa07b94a638018",
+      "size": 144167399
+    },
+    "linux-x64-deb": {
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.1/Anturno-linux-amd64.deb",
+      "sha256": "4dd28c173ac9da06e822f47b8321186388ccfa0367085002b27e0341e066428c",
+      "size": 114909716
+    }
+  },
+  "notes": "*November 24, 2026*\n\n- **The first release.** Anturno runs on Apple silicon Macs and on Linux, and updates itself from here on.\n- **Several agents at once.** Each session runs in its own branch, in a worktree or in the checkout, with the agents you already have.\n- **Answer when they ask.** A session waits for you when its agent needs a decision, and the sidebar shows which ones are waiting.\n- **Try what they built.** The side panel has the changes, the files, a real browser and a terminal for each session.\n- **Merge only what you approve.** Review the changes, open a pull request and merge it from the same window.",
+  "date": "2026-11-24T12:37:59.686Z",
+  "cover": null,
+  "signature": "3mGYCBkmkunPeBTESVPRg4M9Ii8C0UQmiKRhGa+cWex6uLmuFlAx8U4IDUuntS4YhB8HQsE68tArpPkg1d/rDg=="
+}
