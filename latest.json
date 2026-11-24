@@ -1,29 +1,29 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "platforms": {
     "mac-arm64": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.3/Anturno-mac-arm64.zip",
-      "sha256": "cc3db3cf7db4cacacbf79294291f2e0d0cf09637d949ca47264a93d78560e34f",
-      "size": 131988008
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.4/Anturno-mac-arm64.zip",
+      "sha256": "50b20b35f15b0490ff27b59cd574f3fea9150523bd5f5b66ac1fc90226dce907",
+      "size": 132216967
     },
     "linux-x64-appimage": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.3/Anturno-linux-x86_64.AppImage",
-      "sha256": "15ef966f9f1584cd2ed8bc387744da2632f38122114398fea26c3a5618375e2d",
-      "size": 144192198
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.4/Anturno-linux-x86_64.AppImage",
+      "sha256": "6c56affd28dc2e2d4de6373bcef1de77565164b50587ac1883891e7d199fb2dc",
+      "size": 144429863
     },
     "linux-x64-deb": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.3/Anturno-linux-amd64.deb",
-      "sha256": "5b4183abc1590ca8e138ffeb31eb7c0cc12eb1581f12742d905f8e75a5268c8a",
-      "size": 114950740
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.4/Anturno-linux-amd64.deb",
+      "sha256": "8fd9e40910ffb84be634fa18d7c90b101251e45f97196fe2890b9530ff8de692",
+      "size": 115133536
     },
     "win-x64": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.3/Anturno-win-x64.zip",
-      "sha256": "ceff6e563dc76782582c5dd2e0335ad584bb1bd45605613213ff78d271b651fa",
-      "size": 163754610
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.4/Anturno-win-x64.zip",
+      "sha256": "c702fc6781d6a55947a97a28e06a78102ddd31ece17d62a36a292a47281de578",
+      "size": 163994611
     }
   },
-  "notes": "*November 24, 2026*\n\n- **The rail layout is the default.** Pages sit as icons down the side, with the sessions in a panel beside them; if you chose Sidebar, it stays.\n- **Preview tabs.** One click opens a session in a preview tab that the next one replaces; a double-click, Enter or working in it keeps it open.\n- **Pull requests and issues in tabs.** Tabs hold them beside sessions, each led by its icon, and the top row keeps six with the rest in a menu.\n- **The Browser in the window's band.** Its tabs sit in the top row, with back and forward where the window controls are.\n- **Simpler Issues filters.** Tracker, scope, status and team sit in one row of menus.",
-  "date": "2026-11-24T16:18:21.244Z",
+  "notes": "*November 24, 2026*\n\n- **Antigravity.** Google's agy runs as a coding agent beside the others, and Settings → Providers shows its plan limits.\n- **Sessions by status.** The sessions panel groups them into In progress, Needs review and Done, and a session in progress rises to the top of its thread.\n- **Usage in the composer.** A session's context usage carries over a restart, and the context popover shows your provider's limits.\n- **Cleaner pages.** Sessions, Review and Issues head themselves on New session's line, with no page bar above them.\n- **New icons.** Home and Sessions have new icons in the rail and on session tabs.\n- **A faster start.** The app is ready to type in sooner after launch.\n- **Long sessions scroll smoothly.** Older messages load as you scroll up, and the text you're reading holds still.",
+  "date": "2026-11-24T19:04:56.358Z",
   "cover": null,
-  "signature": "3E1a/ZheOM9mvjERQfclragIbO2w3IVp6H5B8y+XsU3Bkwfngch79hEm9f9kLB2g1w+EV5VwDYlB9yTrMYp1Dw=="
+  "signature": "Ox/T89l1Fj0XWuf6GwV7oVc0yi4WOndbHA0rgPOxFBmfC82QLIFTYf4eUQrzYgc2UWdlXZAypQL4frovdYZcDg=="
 }
