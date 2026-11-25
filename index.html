@@ -2,7 +2,7 @@
 <!-- SPDX-License-Identifier: AGPL-3.0-only -->
 <!-- Copyright (C) 2026 Anturno -->
 <!-- download.anturno.cloud: GitHub Pages of anturno/anturno, published by .github/workflows/desktop-release.yml. -->
-<!-- Drawn after the web app's sign-in (apps/web/src/components/remote/sign-in-shell.tsx): its dark page, dawn field, tile and column. -->
+<!-- Drawn after the web app's sign-in (apps/ui/src/components/remote/sign-in-shell.tsx): its dark page, dawn field, tile and column. -->
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -12,7 +12,7 @@
     <meta name="theme-color" content="#111111" />
     <link rel="icon" href="icon.png" />
     <style>
-      /* The app's dark tokens (packages/system/src/styles/tokens.css): the sign-in is always dark. */
+      /* The app's dark tokens (packages/design-system/src/styles/tokens.css): the sign-in is always dark. */
       :root {
         color-scheme: dark;
         --background: #111111;
@@ -292,7 +292,7 @@
         .catch(() => {});
 
       /*
-       * The sign-in's backdrop (apps/web/src/lib/sign-in-field.ts): one low glow at the window's foot,
+       * The sign-in's backdrop (apps/ui/src/lib/sign-in-field.ts): one low glow at the window's foot,
        * in the entry screens' palette (PALETTE: "gradient", amber through magenta to deep indigo, or
        * "dawn", the brand's dawn colours, to go back), diffusing along a slow flow and printed through an
        * 8×8 Bayer dither, one canvas pixel to a 2px cell. Without WebGL 2 the page is whole without it.

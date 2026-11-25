@@ -1,29 +1,29 @@
 {
-  "version": "0.0.4",
+  "version": "0.0.5",
   "platforms": {
     "mac-arm64": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.4/Anturno-mac-arm64.zip",
-      "sha256": "50b20b35f15b0490ff27b59cd574f3fea9150523bd5f5b66ac1fc90226dce907",
-      "size": 132216967
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.5/Anturno-mac-arm64.zip",
+      "sha256": "8415db65ab13078ded14e2e83cef6152622f061b488f3c941b6d6d8682f47703",
+      "size": 131799898
     },
     "linux-x64-appimage": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.4/Anturno-linux-x86_64.AppImage",
-      "sha256": "6c56affd28dc2e2d4de6373bcef1de77565164b50587ac1883891e7d199fb2dc",
-      "size": 144429863
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.5/Anturno-linux-x86_64.AppImage",
+      "sha256": "f023a5b081e5400d5b2dbaa4a3a14971fbe0013ce60b4f02e9149dc3c4a2fe3f",
+      "size": 143999589
     },
     "linux-x64-deb": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.4/Anturno-linux-amd64.deb",
-      "sha256": "8fd9e40910ffb84be634fa18d7c90b101251e45f97196fe2890b9530ff8de692",
-      "size": 115133536
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.5/Anturno-linux-amd64.deb",
+      "sha256": "1bcf369a2d4294d01463672b9be108176bb128a0c509c644ae1ff3ac3f8b8534",
+      "size": 114945804
     },
     "win-x64": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.4/Anturno-win-x64.zip",
-      "sha256": "c702fc6781d6a55947a97a28e06a78102ddd31ece17d62a36a292a47281de578",
-      "size": 163994611
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.5/Anturno-win-x64.zip",
+      "sha256": "47b66ba6ea378ea3184b7d2c95f08040a4d293053be430c16ab409be36a67914",
+      "size": 163593476
     }
   },
-  "notes": "*November 24, 2026*\n\n- **Antigravity.** Google's agy runs as a coding agent beside the others, and Settings → Providers shows its plan limits.\n- **Sessions by status.** The sessions panel groups them into In progress, Needs review and Done, and a session in progress rises to the top of its thread.\n- **Usage in the composer.** A session's context usage carries over a restart, and the context popover shows your provider's limits.\n- **Cleaner pages.** Sessions, Review and Issues head themselves on New session's line, with no page bar above them.\n- **New icons.** Home and Sessions have new icons in the rail and on session tabs.\n- **A faster start.** The app is ready to type in sooner after launch.\n- **Long sessions scroll smoothly.** Older messages load as you scroll up, and the text you're reading holds still.",
-  "date": "2026-11-24T19:04:56.358Z",
+  "notes": "*November 25, 2026*\n\n- **A quieter transcript.** Each step an agent takes reads as one plain sentence, a finished turn folds into a single line, and a stopped or failed turn says what it was doing, with Try again.\n- **Releases.** A Releases page lists each version of your repositories and what it shipped, and you can ask an agent to prepare the next one right in the conversation.\n- **Hold to merge.** Merge and Move to cloud are held to confirm instead of asking in a dialog.\n- **Pull requests in the sidebar.** A session's pull request mark shows green while open and purple once merged, and a session with an open pull request stays in Needs review.\n- **A tidier Done.** Done lists the latest five sessions, by when each finished.\n- **Changes at a click.** The changes chip opens the Changes tab, and long diffs open and scroll smoothly.\n- **Co-authored commits.** Settings → General can add the Anturno bot as a co-author on the factory's commits, for every workspace or just one.\n- **A steadier web app.** The web app stays connected to your Mac through a dropped connection or a few minutes' sleep, without reloading the page.\n- **One sign-in screen.** Loading and sign-in share one calm page on the Mac and the web.\n- **Fixes.** The Mac app no longer crashes when its background service can't start, and background commands keep running when you change connectors.",
+  "date": "2026-11-25T20:51:39.192Z",
   "cover": null,
-  "signature": "Ox/T89l1Fj0XWuf6GwV7oVc0yi4WOndbHA0rgPOxFBmfC82QLIFTYf4eUQrzYgc2UWdlXZAypQL4frovdYZcDg=="
+  "signature": "LqXYTvwQCEPZLbLXN4gZjfOLon7FK+th6qXGFER/PVoMH/nlaXihFMiM7t5SE5vWUCWO91ITByBlT5oVCRzzAA=="
 }
