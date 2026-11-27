@@ -1,29 +1,29 @@
 {
-  "version": "0.0.5",
+  "version": "0.0.6",
   "platforms": {
     "mac-arm64": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.5/Anturno-mac-arm64.zip",
-      "sha256": "8415db65ab13078ded14e2e83cef6152622f061b488f3c941b6d6d8682f47703",
-      "size": 131799898
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.6/Anturno-mac-arm64.zip",
+      "sha256": "c64c42eed01bb255acb8e7123ebd2878bf964e45efec32bdcc0258471a5f456d",
+      "size": 131817303
     },
     "linux-x64-appimage": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.5/Anturno-linux-x86_64.AppImage",
-      "sha256": "f023a5b081e5400d5b2dbaa4a3a14971fbe0013ce60b4f02e9149dc3c4a2fe3f",
-      "size": 143999589
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.6/Anturno-linux-x86_64.AppImage",
+      "sha256": "11bf850f918c8ab38578a39c4f717196cf5b47419d9eebb85db15b26fa51cc35",
+      "size": 144020092
     },
     "linux-x64-deb": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.5/Anturno-linux-amd64.deb",
-      "sha256": "1bcf369a2d4294d01463672b9be108176bb128a0c509c644ae1ff3ac3f8b8534",
-      "size": 114945804
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.6/Anturno-linux-amd64.deb",
+      "sha256": "8f479cfad2b2eec8b9601d0cdd7651b1470f83f016d5b127ba79f270a3dc4391",
+      "size": 115294112
     },
     "win-x64": {
-      "url": "https://github.com/anturno/anturno/releases/download/v0.0.5/Anturno-win-x64.zip",
-      "sha256": "47b66ba6ea378ea3184b7d2c95f08040a4d293053be430c16ab409be36a67914",
-      "size": 163593476
+      "url": "https://github.com/anturno/anturno/releases/download/v0.0.6/Anturno-win-x64.zip",
+      "sha256": "00e622bca9dc78e657b3478c648e821f055ca22bd0ee686ad1ded8660bd699fc",
+      "size": 163608684
     }
   },
-  "notes": "*November 25, 2026*\n\n- **A quieter transcript.** Each step an agent takes reads as one plain sentence, a finished turn folds into a single line, and a stopped or failed turn says what it was doing, with Try again.\n- **Releases.** A Releases page lists each version of your repositories and what it shipped, and you can ask an agent to prepare the next one right in the conversation.\n- **Hold to merge.** Merge and Move to cloud are held to confirm instead of asking in a dialog.\n- **Pull requests in the sidebar.** A session's pull request mark shows green while open and purple once merged, and a session with an open pull request stays in Needs review.\n- **A tidier Done.** Done lists the latest five sessions, by when each finished.\n- **Changes at a click.** The changes chip opens the Changes tab, and long diffs open and scroll smoothly.\n- **Co-authored commits.** Settings → General can add the Anturno bot as a co-author on the factory's commits, for every workspace or just one.\n- **A steadier web app.** The web app stays connected to your Mac through a dropped connection or a few minutes' sleep, without reloading the page.\n- **One sign-in screen.** Loading and sign-in share one calm page on the Mac and the web.\n- **Fixes.** The Mac app no longer crashes when its background service can't start, and background commands keep running when you change connectors.",
-  "date": "2026-11-25T20:51:39.192Z",
+  "notes": "*November 27, 2026*\n\n- **Agents in the sidebar.** A workspace can have several agents, each with its own memory: start one with New agent, turn a session into one, or call it with @Name from any session.\n- **Agents that suggest agents.** The daily report proposes specialised agents from the work you do in your own sessions.\n- **Agents read your sessions.** An agent you ask with @Name can read the factory's sessions and memory to answer.\n- **Usage data by account.** Once you sign in, usage data goes under your GitHub login, so we can see which features people use and where getting started gets stuck. Feedback stays anonymous, and Settings → General → Share usage data still turns it off.",
+  "date": "2026-11-27T14:59:16.707Z",
   "cover": null,
-  "signature": "LqXYTvwQCEPZLbLXN4gZjfOLon7FK+th6qXGFER/PVoMH/nlaXihFMiM7t5SE5vWUCWO91ITByBlT5oVCRzzAA=="
+  "signature": "j1XOdaIttkbca4KFg34SEPZjCc/SWlmbnx3l4RJlEZmFJR45RhaW1MYAeetkNYMMKBYfNmSlkTt47YPQOACeCw=="
 }
